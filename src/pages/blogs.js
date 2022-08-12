@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Layout from '../components/layout'
 
-const BlogPage = ({ data }) => {
+const BlogsPage = ({ data }) => {
   return (
     <Layout pageTitle="My Blog Posts">
       {/* <p>My cool posts will go in here</p> */}
@@ -55,4 +55,4 @@ query {
 }
 `
 
-export default BlogPage
+export default BlogsPage
