@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import { StaticImage } from 'gatsby-plugin-image'
+// import clifford from "../images/clifford.jpg"
 
 const pageStyles = {
   color: "#232129",
